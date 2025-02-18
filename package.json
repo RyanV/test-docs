@@ -5,10 +5,15 @@
   "main": "important.js",
   "scripts": {
     "test": "jest",
-    "generate-index": "node scripts/generate-index.js"
+    "generate-index": "node scripts/generate-index.js",
+    "generate-llm-docs": "node scripts/generate-llm-docs.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "openai": "^4.85.1",
+    "dotenv": "^16.4.7",
+    "dotenv-expand": "^12.0.1"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }
-} 
+}

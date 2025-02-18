@@ -4,7 +4,8 @@
   "description": "",
   "main": "important.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "generate-index": "node scripts/generate-index.js"
   },
   "dependencies": {},
   "devDependencies": {
